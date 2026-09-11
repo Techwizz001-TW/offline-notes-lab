@@ -62,7 +62,7 @@ form button { width: 100%; color: white; background: #1d1d1b; border: 0; padding
 
 @media (max-width: 760px) {
   .shell { display: block; }
-    .shell > aside { min-height: auto; border-right: 0; border-bottom: 1px solid #d8d2c8; }
+    .shell >   .shell > aside { min-height: auto; border-right: 0; border-bottom: 1px solid #d8d2c8; }
   .columns { grid-template-columns: 1fr; }
   main { padding: 40px 6vw; }
   .hero-row { flex-direction: column; }
